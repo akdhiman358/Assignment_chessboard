@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    height: 800px;
+    width:800px;
+}
+.row{
+    height: 100px;
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+.black{
+    background-color: black;
+}
